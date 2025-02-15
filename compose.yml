@@ -1,0 +1,8 @@
+services: 
+  api:
+    build:
+      context: .
+    ports:
+      - "8787:8787"
+
+# Dockerfileのみでrunする場合はポートフォワーディングすること
